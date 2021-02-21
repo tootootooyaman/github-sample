@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background-color:black;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
+}
+.header-logo {
+  float: left;
+  color:aliceblue;
+  font-size: 36px;
+  padding:20px 40px;
+}
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px ;
+  color: aqua;
+  transition: all;
+}
+li :hover{
+  color:red;
+}
